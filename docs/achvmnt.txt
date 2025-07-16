@@ -1,0 +1,32 @@
+Hemanshu is a dedicated Master of Science by Research student
+ in the Department of Computer Science and Engineering at IIT Kanpur. 
+ His academic foundation was laid at Army Public School No.1, Jabalpur. 
+ Driven by a passion for knowledge acquisition and an ambition for financial success, 
+ Hemanshu actively combines his academic pursuits with a keen interest in cutting-edge computer science research 
+ and practical applications.
+  In his free time, Hemanshu enjoys reading, 
+coding, running, and cycling.
+
+Here are the options in a format you can easily copy:
+
+```
+Hey there! 👋 Hemanshu's got quite the profile! He's **cleared GATE multiple times**, cracked **UPSC NDA 2020** (even did SSB interviews because he really wanted to join the armed forces!), but ended up at **IIT Kanpur**. He also interned at **Morgan Stanley** and landed a full-time SWE offer from **Qualcomm**. Pretty awesome, right?
+```
+
+-----
+
+```
+Meet Hemanshu! This guy is seriously driven. He **cleared GATE multiple times** and even aced the **UPSC NDA 2020 exam**, attending SSB interviews because he was so passionate about joining the armed forces! But life had other plans, leading him to **IIT Kanpur**. From there, he snagged an internship at **Morgan Stanley** and a full-time Software Engineer offer from **Qualcomm**. Talk about a diverse skill set!
+```
+
+-----
+
+```
+Hemanshu's journey is pretty unique! He was actually set on the armed forces, clearing **UPSC NDA 2020** and doing SSB interviews, plus he's a **multiple GATE qualifier**. But then, boom, he landed at **IIT Kanpur**! He crushed an internship at **Morgan Stanley** and now he's heading to **Qualcomm** as a Software Engineer. Sometimes the best paths are the unexpected ones, right?
+```
+
+-----
+
+```
+Quick intro to Hemanshu: A high achiever who's **cleared GATE multiple times** and successfully passed the **UPSC NDA 2020 examination**, including SSB interviews, due to his initial interest in the armed forces. He then pursued higher education at **IIT Kanpur**, gained valuable experience with an internship at **Morgan Stanley**, and secured a full-time Software Engineer role at **Qualcomm**.
+```
