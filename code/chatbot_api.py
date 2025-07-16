@@ -28,18 +28,8 @@ def load_docs():
 
 # Build vector store
 embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-
-INDEX_DIR = os.path.join(os.path.dirname(__file__), "faiss_index")
-if os.path.exists(INDEX_DIR):
-    db = FAISS.load_local(INDEX_DIR, embedding)
-else:
-    split_docs = load_docs()
-    db = FAISS.from_documents(split_docs, embedding)
-    db.save_local(INDEX_DIR)
-
-# docs = load_docs()
-
-# db = FAISS.from_documents(docs, embedding)
+index_path = os.path.join(os.path.dirname(__file__), "faiss_index")
+db = FAISS.load_local(index_path, embedding, allow_dangerous_deserialization=True)
 retriever = db.as_retriever()
 
 # Setup online LLM using OpenRouter via LangChain
