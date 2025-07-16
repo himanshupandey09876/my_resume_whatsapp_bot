@@ -27,6 +27,8 @@ def load_docs():
     return splitter.split_documents(docs)
 
 # Build vector store
+embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
 INDEX_DIR = os.path.join(os.path.dirname(__file__), "faiss_index")
 if os.path.exists(INDEX_DIR):
     db = FAISS.load_local(INDEX_DIR, embedding)
@@ -36,7 +38,7 @@ else:
     db.save_local(INDEX_DIR)
 
 # docs = load_docs()
-# embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
 # db = FAISS.from_documents(docs, embedding)
 retriever = db.as_retriever()
 
